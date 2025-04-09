@@ -1,0 +1,83 @@
+{
+ "alerts": [
+   {
+     "endsAt": "0001-01-01T00:00:00Z",
+     "labels": {
+       "job": "node",
+       "group": "production",
+       "instance": "localhost:8081",
+       "owner": "mj",
+       "cluster": "sedemoditl-cluster",
+       "namespace": "ditl-demo-prod",
+       "pod": "productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9",
+       "alertname": "Pod productcatalogservice (productcatalogservice) is in waiting state"
+     },
+     "status": "firing",
+     "startsAt": "2025-04-08T08:24:38.326Z",
+     "annotations": {
+       "title": "productcatalogservice is in waiting state",
+       "description": "dtl-demo-prod/productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9 (productcatalogservice) is in waiting stat. reason: CrashLoopBackOff."
+     },
+     "fingerprint": "f404ecabc8dd5cd7",
+     "generatorURL": ""
+   },
+   {
+     "endsAt": "0001-01-01T00:00:00Z",
+     "labels": {
+       "job": "node",
+       "group": "canary",
+       "instance": "localhost:8082",
+       "owner": "mj",
+       "alertname": "productcatalogservice is in waiting state"
+     },
+     "status": "firing",
+     "startsAt": "2025-04-12T08:24:38.326Z",
+     "annotations": {
+     "title": "productcatalogservice is in waiting state",
+     "description": "Pod ditl-demo-prod/productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9 (productcatalogservice) is in waiting state (reason: CrashLoopBackOff)."
+   },
+     "fingerprint": "f8f08d4e32c61a9d",
+     "generatorURL": ""
+   },
+   {
+     "endsAt": "0001-01-01T00:00:00Z",
+     "labels": {
+       "job": "node",
+       "group": "production",
+       "cluster": "sedemoditl-cluster",
+       "namespace": "ditl-demo-prod",
+       "pod": "productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9",
+       "instance": "localhost:8083",
+       "severity": "critical",
+       "alertname": "InstanceDown"
+     },
+     "status": "firing",
+     "startsAt": "2025-04-08T08:24:38.326Z",
+     "annotations": {
+      "title": "productcatalogservice is in waiting state",
+     "description": "Pod ditl-demo-prod/productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9 (productcatalogservice) is in waiting state Reason: CrashLoopBackOff."
+   },
+     "fingerprint": "39f38c0611ee7abd",
+     "generatorURL": ""
+   }
+ ],
+ "status": "firing",
+ "version": "4",
+ "groupKey": "{}:{alertname=\"Pod productcatalogservice (productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9) is in waiting state\"}",
+ "receiver": "combo",
+ "numFiring": 3,
+ "externalURL": "https://runbooks.prometheus-operator.dev/runbooks/kubernetes/kubepodcrashlooping/",
+ "groupLabels": {
+   "alertname": "productcatalogservice is in waiting state"
+ },
+ "numResolved": 0,
+ "commonLabels": {
+   "runbook": "https://runbooks.prometheus-operator.dev/runbooks/kubernetes/kubepodcrashlooping/",
+   "owner": "mj",
+   "cluster": "sedemoditl-cluster",
+   "namespace": "ditl-demo-prod",
+   "alertname": "productcatalogservice is in waiting state"
+ },
+ "truncatedAlerts": 0,
+ "commonAnnotations": {}
+}
