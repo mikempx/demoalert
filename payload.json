@@ -6,7 +6,7 @@
        "job": "node",
        "group": "production",
        "instance": "localhost:8081",
-       "owner": "mj",
+       "owner": "mikejohnson1",
        "cluster": "sedemoditl-cluster",
        "namespace": "ditl-demo-prod",
        "pod": "productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9",
@@ -27,7 +27,7 @@
        "job": "node",
        "group": "canary",
        "instance": "localhost:8082",
-       "owner": "mj",
+       "owner": "mikejohnson1",
        "alertname": "productcatalogservice is in waiting state"
      },
      "status": "firing",
@@ -73,7 +73,7 @@
  "numResolved": 0,
  "commonLabels": {
    "runbook": "https://runbooks.prometheus-operator.dev/runbooks/kubernetes/kubepodcrashlooping/",
-   "owner": "mj",
+   "owner": "mikejohnson1",
    "cluster": "sedemoditl-cluster",
    "namespace": "ditl-demo-prod",
    "alertname": "productcatalogservice is in waiting state"
