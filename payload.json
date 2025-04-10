@@ -10,7 +10,8 @@
        "cluster": "sedemoditl-cluster",
        "namespace": "ditl-demo-prod",
        "pod": "productcatalogservice-ditl-demo-prod-77c7c974bf-dgkk9",
-       "alertname": "Pod productcatalogservice (productcatalogservice) is in waiting state"
+       "alertname": "Pod productcatalogservice (productcatalogservice) is in waiting state",
+      "assignment_group": "Web Team"
      },
      "status": "firing",
      "startsAt": "2025-04-08T08:24:38.326Z",
