@@ -72,6 +72,7 @@
  },
  "numResolved": 0,
  "commonLabels": {
+   "severity": "critical",
    "runbook": "https://runbooks.prometheus-operator.dev/runbooks/kubernetes/kubepodcrashlooping/",
    "owner": "mikejohnson1",
    "cluster": "sedemoditl-cluster",
