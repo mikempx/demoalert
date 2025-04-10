@@ -2,7 +2,7 @@
  "alerts": [
    {
      "endsAt": "0001-01-01T00:00:00Z",
-     "labels": 
+     "labels": {
        "job": "node",
        "group": "production",
        "instance": "localhost:8081",
