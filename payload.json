@@ -77,7 +77,10 @@
    "owner": "Johnny Enge",
    "cluster": "sedemoditl-cluster",
    "namespace": "ditl-demo-prod",
-   "alertname": "productcatalogservice is in waiting state"
+   "alertname": "productcatalogservice is in waiting state",
+   "service": "productcatalog",
+   "urgency": "Low",
+   "priority": "Critical"
  },
  "truncatedAlerts": 0,
  "commonAnnotations": {}
