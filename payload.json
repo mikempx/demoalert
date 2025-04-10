@@ -79,8 +79,8 @@
    "namespace": "ditl-demo-prod",
    "alertname": "productcatalogservice is in waiting state",
    "service": "productcatalog",
-   "urgency": "Low",
-   "priority": "Critical"
+   "urgency": "Medium",
+   "impact": "Medium"
  },
  "truncatedAlerts": 0,
  "commonAnnotations": {}
