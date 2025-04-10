@@ -2,7 +2,7 @@
  "alerts": [
    {
      "endsAt": "0001-01-01T00:00:00Z",
-     "labels": {
+     "labels": 
        "job": "node",
        "group": "production",
        "instance": "localhost:8081",
@@ -28,7 +28,10 @@
        "group": "canary",
        "instance": "localhost:8082",
        "owner": "Johnny Enge",
-       "alertname": "productcatalogservice is in waiting state"
+       "alertname": "productcatalogservice is in waiting state",
+         "service": "productcatalog",
+   "urgency": "2",
+   "impact": "2"
      },
      "status": "firing",
      "startsAt": "2025-04-12T08:24:38.326Z",
@@ -77,10 +80,7 @@
    "owner": "Johnny Enge",
    "cluster": "sedemoditl-cluster",
    "namespace": "ditl-demo-prod",
-   "alertname": "productcatalogservice is in waiting state",
-   "service": "productcatalog",
-   "urgency": "2",
-   "impact": "2"
+   "alertname": "productcatalogservice is in waiting state"
  },
  "truncatedAlerts": 0,
  "commonAnnotations": {}
